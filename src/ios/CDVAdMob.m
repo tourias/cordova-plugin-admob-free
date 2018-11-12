@@ -690,10 +690,10 @@
     //NSLog(@"super view: %d x %d", (int)pr.size.width, (int)pr.size.height);
 
     // iOS7 Hack, handle the Statusbar
-    //BOOL isIOS7 = ([[UIDevice currentDevice].systemVersion floatValue] >= 7);
-    //CGRect sf = [[UIApplication sharedApplication] statusBarFrame];
-    //CGFloat top = isIOS7 ? MIN(sf.size.height, sf.size.width) : 0.0;
-    float top = 0.0;
+    BOOL isIOS7 = ([[UIDevice currentDevice].systemVersion floatValue] >= 7);
+    CGRect sf = [[UIApplication sharedApplication] statusBarFrame];
+    CGFloat top = isIOS7 ? MIN(sf.size.height, sf.size.width) : 0.0;
+    //float top = 0.0;
 
     //if(! self.offsetTopBar) top = 0.0;
 
