@@ -6,7 +6,7 @@ A free, no ad-sharing version of Google AdMob plugin for Cordova.
 
 I have been asking the interest about [funding this project](https://github.com/ratson/cordova-plugin-admob-free/issues/161) a while, got some encouraging feedback, finally have setup [a funding page](https://ratson.name/fund-admob-plus/).
 
-I am actively developing [admob-plus](https://github.com/admob-plus/admob-plus) for the last few weeks, it is usable for most cases, please try it out and give feedback.
+Please use [admob-plus](https://github.com/admob-plus/admob-plus) if possible.
 
 While my focus is `admob-plus`, I will keep maintaining `cordova-plugin-admob-free` until all exisiting features are available with the new plugin.
 
@@ -24,7 +24,7 @@ If you are earning more than USD$200 monthly from using this plugin, please cons
 
 * **No Remote Control**
 
-  Do not [send your application information to a remote server](https://github.com/floatinghotpot/cordova-admob-pro/issues/326) to control whether ad could be displayed. Therefore, you don't [lose revenue](https://github.com/floatinghotpot/cordova-admob-pro/issues/544) because [some server bugs](https://github.com/floatinghotpot/cordova-admob-pro/issues/450#issuecomment-244837346),
+  Do not [send your application information to a remote server](https://github.com/floatinghotpot/cordova-admob-pro/issues/326) to control whether ad could be displayed. Therefore, you don't [lose revenue](https://github.com/ratson/cordova-plugin-admob-free/issues/354#issuecomment-482822202) because [some server bugs](https://github.com/ratson/cordova-plugin-admob-free/issues/354#issuecomment-482821951),
 
   NOTE(2018-03-17): The above issue links are broken due to the author removed the discussions, the fact is the `cordova-plugin-admobpro` is sending requests to http://adlic.rjfun.com/adlic with application information for controling ad display, and some users reported losting more revenue than advertised, so use it at your own risk.
 
