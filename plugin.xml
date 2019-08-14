@@ -31,7 +31,7 @@
     <platform name="android">
         <preference name="ADMOB_APP_ID" default=""/>
 
-        <config-file parent="/manifest/application" target="AndroidManifest.xml">
+        <config-file parent="application" target="AndroidManifest.xml">
             <activity android:name="com.google.android.gms.ads.AdActivity"
                 android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
                 android:theme="@android:style/Theme.Translucent" />
