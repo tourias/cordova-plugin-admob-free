@@ -72,7 +72,7 @@ public class BannerExecutor extends AbstractExecutor {
                     adView.setAdUnitId(plugin.config.getBannerAdUnitId());
                     adView.setAdSize(plugin.config.adSize);
                     adView.setAdListener(new BannerListener(BannerExecutor.this));
-                    adView.setBackgroundColor(Color.parseColor("#f5f5f5");
+                    adView.setBackgroundColor(Color.parseColor("#f5f5f5"));
                 }
                 if (adView.getParent() != null) {
                     ((ViewGroup) adView.getParent()).removeView(adView);
