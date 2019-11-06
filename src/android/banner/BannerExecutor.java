@@ -5,6 +5,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.graphics.Color;
 
 import com.google.android.gms.ads.AdView;
 
@@ -71,6 +72,7 @@ public class BannerExecutor extends AbstractExecutor {
                     adView.setAdUnitId(plugin.config.getBannerAdUnitId());
                     adView.setAdSize(plugin.config.adSize);
                     adView.setAdListener(new BannerListener(BannerExecutor.this));
+                    adView.setBackgroundColor(Color.parseColor("#f5f5f5");
                 }
                 if (adView.getParent() != null) {
                     ((ViewGroup) adView.getParent()).removeView(adView);
